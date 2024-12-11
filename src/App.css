@@ -1,5 +1,17 @@
 .App {
   text-align: center;
+  height: calc(100vh + 300px);
+  width: calc(100vw + 300px);
+  background-color: #cfe1f1;
+}
+
+.demo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
